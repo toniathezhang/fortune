@@ -1,11 +1,12 @@
 function fortune(){
     fortunes = [
-        'u will worship classic typefaces.',
-        'u will learn 3D modeling even though its a pain :).',
-        'u will not use Zapf Dingbats.',
-        'u will not stretch type.',
-        'u will not automatically use the default margins in your layout program.',
-        'u might check that all images have an effective 300ppi resolution.'
+        'you will worship classic typefaces.',
+        'you will learn 3D modeling :).',
+        'you will not use Zapf Dingbats.',
+        'you will not stretch type.',
+        'you will not use perfectionism as an excuse for procrastinating on your personal project.',
+        'you will not automatically use the default margins in your layout program.',
+        'you check that all images have an effective 300ppi resolution.'
     ]
 
     visitorName = document.getElementById('fortune-input').value
@@ -22,7 +23,7 @@ function fortune(){
 
 function restyle(){
     outputDiv = document.getElementById('fortune-output')
-    randomFontSizes = ['80px', '18px', '20px', '60px']
+    randomFontSizes = ['80px', '48px', '100px', '60px']
     randomColors = ['red', 'yellow', 'pink', 'coral']
     randombackgroundC = ['blue', 'green', 'cyan', 'magenta']
 
