@@ -1,9 +1,11 @@
 function fortune(){
     fortunes = [
-        'You will receive a gift.',
-        'You will drink a lot of water.',
-        'You will sanitise your hands.',
-        'You will not get any homework for the rest of the week.'
+        'u will worship classic typefaces.',
+        'u will learn 3D modeling even though its a pain :).',
+        'u will not use Zapf Dingbats.',
+        'u will not stretch type.',
+        'u will not automatically use the default margins in your layout program.',
+        'u might check that all images have an effective 300ppi resolution.'
     ]
 
     visitorName = document.getElementById('fortune-input').value
@@ -21,8 +23,8 @@ function fortune(){
 function restyle(){
     outputDiv = document.getElementById('fortune-output')
     randomFontSizes = ['80px', '18px', '20px', '60px']
-    randomColors = ['red', 'blue', 'pink', 'coral']
-    randombackgroundC = ['yellow', 'black', 'cyan', 'magenta']
+    randomColors = ['red', 'yellow', 'pink', 'coral']
+    randombackgroundC = ['blue', 'green', 'cyan', 'magenta']
 
     randomStyleNum = Math.floor(Math.random()*randomColors.length)
 
